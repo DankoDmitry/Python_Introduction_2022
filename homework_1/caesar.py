@@ -90,15 +90,23 @@ def caesar_breaker_brute_force(ciphertext: str) -> int:
     return best_shift
 
 
+
+
+"""
+#############################
+Далее едет часть для проверки
+"""
+
+
 # print(string.ascii_letters)
 # print(type(string.ascii_letters))
 # print(string.ascii_letters[51])
 # print(len(string.ascii_letters))
 
-text = "I've got a family. It is small. We are a family of four. I've got a father, a mother and a brother. I haven't got a sister. My father is.an engineer. He works in a plant. My mother is a teacher. She works at school. My brother is little. He doesn't go to school. He goes to a kindergarten. He is four.I like to play. I have got many toys. I have got a teddy-bear, dolls, a ball, a toy monkey and a doll's house. I like the doll's house very much. It is big. It is pink and nice."
+# text = "I've got a family. It is small. We are a family of four. I've got a father, a mother and a brother. I haven't got a sister. My father is.an engineer. He works in a plant. My mother is a teacher. She works at school. My brother is little. He doesn't go to school. He goes to a kindergarten. He is four.I like to play. I have got many toys. I have got a teddy-bear, dolls, a ball, a toy monkey and a doll's house. I like the doll's house very much. It is big. It is pink and nice."
 
-shift = randint(0, 62)
+# shift = randint(0, 62)
 
-encrypt = encrypt_caesar(text, shift)
+# encrypt = encrypt_caesar(text, shift)
 
-print(shift, " => ", caesar_breaker_brute_force(encrypt))
+# print(shift, " => ", caesar_breaker_brute_force(encrypt))
